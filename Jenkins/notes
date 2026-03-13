@@ -1,0 +1,3 @@
+Jenkins is A Tool used to automated your workflow, by the help of the pipeline.
+Jenkins also works on Master-WoRKER architecture.
+Master used to give the command to Workers adn they worked on that.
