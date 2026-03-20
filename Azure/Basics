@@ -1,0 +1,18 @@
+VM - virtual machine- same like EC2 of AWS , it is of many types like b2-d2-v2..etc
+
+Azure Container apps - it is a cloud Docker service used to make an Applicatin live , by the help of AZA
+
+Azure Container Registry - It is a Azure cloud repository,Used to push the image to azure cloud image repo, same like ECR of AWS.
+
+Storage Account - it is a Account, you have to create to use storage system  of Azure, for saving images videos, photos, files, logs, sql-data....etc
+
+In Storage Account, you will get--
+
+Blob storage - to store FIles, Images,Videos.
+
+File share - to transfer or connects file between multiples VMs.
+
+Queues - sending message between diffrent apps
+
+Table Storage - for SQL Database,for storing Simple data.
+
