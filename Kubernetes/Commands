@@ -1,0 +1,20 @@
+*To make a Pod*
+kubectl run ayush  --image=nginx/httpd -n prod
+
+*To make a deployment*
+kubectl create deployment ayush-deploy --image=nginx/httpd -n prod
+
+*To crete a service*
+kubectl expose deployment ayush-deploy --port=80 --target-port=80 -n prod
+
+*To see logs*
+kubectl logs pod/ayush -n prod
+
+*To see running pods functions/when a pod is stucked on ImagePullBackOff error*
+kubectl describe pod/ayush -n prod
+kubectl describe ayush -n prod
+
+*To forward the port of the service*
+kubectl port-forward ayush-deploy 8080:80 -n prod
+
+
