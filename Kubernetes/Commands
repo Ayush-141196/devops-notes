@@ -17,4 +17,13 @@ kubectl describe ayush -n prod
 *To forward the port of the service*
 kubectl port-forward ayush-deploy 8080:80 -n prod
 
+*to see clusters*
+kind get clusters
+
+*to see kubectl is listening to which cluster*
+kubectl config current-context
+
+*to see namespace*
+kubectl get ns
+
 
