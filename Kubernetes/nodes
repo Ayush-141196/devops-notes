@@ -11,6 +11,13 @@ Worker-Node Consist of an Architecture which is.
 1. Kubelet -  
 2. Kube-proxy - use to manage Network of pod , to available for outer world.
 
+**Deploymentset**
+basically used for apps, and to make the replicas of pod as a backup,if any case a pod is delete then there is a another pod also.
+which will be created automatically without resistance.
+
+**Statefulset**
+
+
 
 
 

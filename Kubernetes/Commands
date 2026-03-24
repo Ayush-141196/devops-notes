@@ -27,3 +27,5 @@ kubectl config current-context
 kubectl get ns
 
 
+*to enter inside pod*
+kubectl exec -it pod-name -n prod -- bash
