@@ -22,3 +22,23 @@ pipeline{
 
 
 }
+
+
+#######################################################################################################
+
+pipeline{
+   agent any
+   stages{
+      stage("code"){
+         steps{
+            git url : "github-url ", branch: "main"
+
+      stage("build"){
+         steps{
+            sh "docker build -t nodes-app."    
+}
+}
+}
+}
+}
+}
